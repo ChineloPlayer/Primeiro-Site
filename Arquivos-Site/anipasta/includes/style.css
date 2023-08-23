@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 10px;
+
+    background-image: url("../imgs/img1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header{
+    background-image: linear-gradient(45deg, rgba(179, 137, 179, 0.458), rgba(150, 127, 151, 0.712));
+    padding-top: 2px;
+    height:fit-content;
+    font-size: 1.9rem;
+    text-align: center;
+    border-radius:8px;
+    opacity: 0.9;
+}
+.headerfont{
+    font-size:1.1rem;
+    text-align: center;
+    color: black;
+}
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(45deg, rgb(50, 26, 51), rgb(90, 89, 90));
+    height: 80px;
+    width: 100%;
+    font-size: 1.9rem;
+    text-align: center;
+    opacity: 0.9;
+}
+
+
+footer .h2{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DivPlaceLogin{
+    background-color: rgba(0, 0, 0, 0.8);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color:white;
+}
+
+.LogInputButton{
+        padding:15px;
+        border:none;
+}
+
+.LogInputButton[type=submit]{
+    background-color:dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+
+
+table, th{
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(199, 197, 191);
+}
+
+th{
+    /*font-weight: bold;*/
+    background-color: rgb(234, 230, 215);
+}
+
+td{
+    font-size: small;
+}
+
+.div{
+    width: fit-content;
+    text-align:unset;
+    background-color: rgb(79, 90, 107);
+    padding: 4px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover{
+    color: lightsteelblue;
+}
+
+a.active{
+    background-color: #ddd;
+    color: lightblue;
+}
+
+#t1{
+    font-size: large;
+    color: rgb(50, 116, 216)
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+    border: none;
+    background-color: rgb(212, 212, 212);
+    color: rgb(116, 116, 116);
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: genshin;
+}
+
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+    color: rgb(173, 173, 173);
+}
+
+.warnSucc{
+    background-color: rgba(0, 128, 0);
+    color: rgba(172, 255, 47);
+    padding-left: 6px;
+}
+
+.warnError{
+    background-color: rgba(128, 0, 0);
+    color: rgba(255, 115, 115);
+    padding-left: 6px;
+}
+
+#caixa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    width: 5%;
+    border: rgb(80, 51, 77) solid 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: aliceblue;
+    overflow:hidden;
+    font-size:large;
+}
+
+#optionbox{
+    border: gray solid 2px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+p {
+    margin: 0;
+}
+
+.dive{
+    margin: 0;
+    text-align: center;
+}
+
+#update{
+    background:url("../imgs/update.png") 0 0 no-repeat;
+    display: inline-block;;
+    text-indent:-99999em;
+    overflow:hidden;
+    height: 48px;
+    width: 48px;
+}
+
+#delete{
+    background:url("../imgs/delete.png") 0 0 no-repeat;
+    display: inline-block;
+    text-indent:-99999em;
+    overflow:hidden;
+    height: 48px;
+    width: 48px;
+}
+
+#view{
+    background:url("../imgs/view.png") 0 0 no-repeat;
+    display: inline-block;
+    text-indent:-99999em;
+    overflow:hidden;
+    height: 48px;
+    width: 48px;
+}
+
+#anime{
+    font-size: medium;
+    color: rgb(223, 193, 26)
+}
+
+#nomeAnime{
+    font-size: large;
+    color: rgb(234, 230, 215)
+}
+
+#imgIcon{
+    width: 90px;
+    height: 90px;
+    border-style: groove;
+    border-color: rgb(234, 230, 215);
+}
+
+#text, label{
+    color: rgb(234, 230, 215);
+}
+
+.divv
+{
+    width: fit-content;
+    text-align:unset;
+    background-color: rgb(79, 90, 107);
+    padding: 4px;
+}
+
+.caixa2{
+        align-content: center;
+        align-items: center;
+    
+}
+
+.divvv, select{
+    width: fit-content;
+    text-align:unset;
+    background-color: rgb(79, 90, 107);
+    padding: 4px;
+    align-content: right;
+    align-items: center;
+    border-radius:8px;
+}
+
+.caixa3{
+    background-color: rgba(0, 0, 0, 0.8);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color:white;
+}
+.divCaixaAnimes{
+    background-color: rgba(0, 0, 0, 0.8);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color:white;
+}
+
+.anime-thumbnail{
+    width: 100% !important;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+
+.caixaViewCenter{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto; 
+    padding:10px;
+    border-radius:8px;
+    background-color:rgba(105, 105, 105, 0.307);
+    min-height:90vh;
+    font-size:1rem;
+}
+
+.imgBorder{
+    border-radius:15px;
+    height: 350%;
+}
+.colunaflex{
+    display:flex;
+    flex-wrap:nowrap;
+}
+.coluna{
+    width: 45%;
+    margin:5%;
+    font-size:20px;
+}
+.animecolumn{
+    width: 100%;
+    height: 100%;
+}
